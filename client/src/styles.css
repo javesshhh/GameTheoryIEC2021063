@@ -1,0 +1,103 @@
+/* src/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px; /* Adjust based on your desired max width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 1rem; /* Optional padding for smaller screen spacing */
+  }
+  
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-grow {
+    flex-grow: 1;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .p-6 {
+    padding: 1.5rem; /* Added padding for Booking Dashboard and Schedule */
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center; /* Center align all h1 elements */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem; /* Add some spacing above the table */
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+  
+  th {
+    background-color: #f8f8f8;
+    text-align: center; /* Center align text in headers */
+  }
+  
+  td {
+    text-align: center; /* Center align text in table data */
+  }
+  
+  /* Button styles for consistent appearance */
+  button {
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.2s; /* Smooth transition */
+  }
+  
+  button:hover {
+    background-color: #007bff; /* Button hover color */
+    color: #fff; /* Change text color on hover */
+  }
+  
+  /* Additional styling for booking spans */
+  span {
+    display: block; /* Ensure the span takes the full width */
+    margin: 0 auto; /* Center align the text */
+    padding: 0.5rem;
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* Sidebar specific styles */
+  .sidebar {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text for better readability */
+  }
+  
+  /* Additional responsive styles if needed */
+  @media (max-width: 768px) {
+    table {
+      font-size: 0.9rem; /* Reduce font size for smaller screens */
+    }
+  }

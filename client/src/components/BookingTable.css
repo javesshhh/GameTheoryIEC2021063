@@ -1,0 +1,59 @@
+/* BookingTable.css */
+
+.booking-table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .booking-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    background-color: #f3f4f6;
+    padding: 16px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: left;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .table-row:hover {
+    background-color: #f9fafb;
+  }
+  
+  .time-cell {
+    background-color: #f9fafb;
+    padding: 16px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: left;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .booking-cell {
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .booked {
+    display: block;
+    background-color: #fee2e2;
+    color: #b91c1c;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .available {
+    display: block;
+    background-color: #d1fae5;
+    color: #065f46;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
