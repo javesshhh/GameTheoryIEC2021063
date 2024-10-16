@@ -1,4 +1,4 @@
-const Booking = require('../models/Booking');
+const Booking = require('../models/booking');
 
 // Get all bookings based on centerId, sportId, and date
 exports.getBookings = async (req, res) => {
